@@ -1,6 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:design_w_page_view/pages/certification.dart';
+import 'package:design_w_page_view/pages/progress.dart';
+import 'package:design_w_page_view/pages/offline.dart';
+import 'package:design_w_page_view/pages/course_catalog.dart';
 import 'package:design_w_page_view/pages/page_indicator.dart';
 
 class HomePage extends StatefulWidget {
@@ -48,13 +51,13 @@ class _HomePageState extends State<HomePage>
                   CertfictionPage(), //Text('First Page', style: textTheme.titleLarge),
             ),
             Center(
-              child: Text('Second Page', style: textTheme.titleLarge),
+              child: ProgressPage(),
             ),
             Center(
-              child: Text('Third Page', style: textTheme.titleLarge),
+              child: OfflineAccessPage(),
             ),
             Center(
-              child: Text('Fourth Page', style: textTheme.titleLarge),
+              child: CourseCatalogPage(),
             ),
           ],
         ),
