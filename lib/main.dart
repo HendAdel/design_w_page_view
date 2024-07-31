@@ -1,6 +1,6 @@
 import 'package:design_w_page_view/utils/color.utility.dart';
 import 'package:flutter/material.dart';
-import 'package:design_w_page_view/pages/certification.dart';
+import 'package:design_w_page_view/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: ColorUtility.scaffoldBackground,
         useMaterial3: true,
       ),
-      home: const CertfictionPage(),
+      home: const HomePage(),
     );
   }
 }
